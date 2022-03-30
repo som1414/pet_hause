@@ -36,7 +36,7 @@ class AttrDisplay:
         attrs = []
         for key in sorted(self.__dict__):
             attrs.append(f'{getattr(self, key)}')
-        return attrs
+        return attrsgit
 
     def __repr__(self):
         if len(self.gatherAttrs()) < 3:
